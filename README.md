@@ -12,5 +12,8 @@ This library incorporates the MATLAB-provided [VEX EDR V5 Robot Brain Support fr
 ### Installation
 After downloading, ensure the `Vex-V5-Simulink-Expansion.slx`, `Advanced_SmartMotorRead.m` and `Advanced_SmartMotorWrite.m` are in the same working directory as the model the library is to be used in. Once this is completed, the library should appear in the Simulink Library Browser.
 
+## Important Information
+The 'Inverse Kinematic Calculation' and 'Inverse Kinematic Motion' blocks make no checks to ensure the output position can be reached. These limits must be included in your model.
+
 ## License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
